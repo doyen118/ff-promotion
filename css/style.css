@@ -99,6 +99,7 @@ h1 {
 
 h4 {
     color: #666666;
+    font-weight: 300;
 }
 
 p {
@@ -179,6 +180,7 @@ p {
     color: #666666;
     line-height: 30px;
     font-size: 24px;
+    font-weight: 300;
 }
 
 button.btn-more-info {
@@ -226,6 +228,27 @@ section.card-section .card {
     padding: 5px;
     width: 100%;
 }
+
+
+section.card-section .card:hover {
+   
+    border: 1px solid #FFFFFF4D;
+ 
+}
+
+/* .card:hover {
+
+    border: double 2px transparent;
+    border-radius: 80px;
+    display:inline-block;
+    background-image: radial-gradient(circle at top left, #f00,#3020ff) !important;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: transparent ;
+
+ } */
+
+
 
 img.card-img {
     margin: 0px;
@@ -286,6 +309,7 @@ section.how-it-work-section p {
     margin: 0 auto 30px;
     padding: 80px 70px;
     width: 100%;
+    max-width: 1440px;
 }
 
 .learn-more {
@@ -465,8 +489,8 @@ section.card-section .card {
     }
 
     .heading-section .list-section ul {
-        max-width: 87%;
-        margin-left: 40px;
+        max-width: 90%;
+        margin-left: 60px;
     }
 
     .footer {
@@ -484,7 +508,14 @@ section.card-section .card {
         margin: 15px 0 0;
     }
 
+    .learn-more-section {
+        width: 90%;
+        padding: 20px;
+    }
 
+    section.heading-section,  section.swiper-section, section.more-info, section.buy-win-prizes-section {
+        padding: 0 20px;
+    }
 }
 
 
@@ -493,6 +524,10 @@ section.card-section .card {
     section.card-section .card {
         max-width: 100%;
     }
+
+    .heading-section .list-section ul {
+        max-width: 88%;
+     }
 
     a.navbar-brand img {
         width: 80%;
@@ -517,7 +552,7 @@ section.card-section .card {
     .heading {
         margin: 100px auto 50px;
         width: 100%;
-        padding-right: 20px;
+        padding-right: 10px;
     }
 
     .heading::after {
@@ -572,10 +607,7 @@ section.card-section .card {
         padding: 0 20px;
     }
 
-    .learn-more-section {
-        width: 98%;
-        padding: 20px;
-    }
+
 
     h1 {
         font-size: 26px;
@@ -608,17 +640,17 @@ section.card-section .card {
     .mr-30 {
         margin-right: 0;
     }
-
-
+    .owl-item {
+        width: 50% !important;
+        max-width: 563px;
+        margin: 0 auto;
+    }
+ 
 }
 
 
 @media screen and (max-width: 580px) {
-    .owl-item {
-        width: 288px !important;
-        max-width: 330px;
-        margin-right: 6px !important;
-    }
+ 
     section.learn-more-section p {
         font-size: 14px;
     }
@@ -647,5 +679,6 @@ section.card-section .card {
         font-size: 14px;
         font-weight: 100;
     }
+
 
 }
