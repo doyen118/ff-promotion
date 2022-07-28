@@ -506,6 +506,8 @@ section.card-section .card {
         height: 40px;
         padding: 0 15px;
         font-size: 14px;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .navigation li.nav-item a {
@@ -565,6 +567,7 @@ section.card-section .card {
         font-size: 16px;
         line-height: normal;
         margin-bottom: 0;
+        text-align: justify;
     }
 
     .learn-more-section {
@@ -573,7 +576,8 @@ section.card-section .card {
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 20px;
+        text-align: center;
     }
 
     footer {
@@ -595,5 +599,25 @@ section.card-section .card {
         height: 677px;
         margin: 0 auto;
     }
+    button.btn-more-info {
+        max-width: 100%;
+ 
+    }
+    .mr-30 {
+        margin-right: 0;
+    }
 
+}
+
+
+@media screen and (max-width: 580px) {
+    .owl-item {
+        width: 330px !important;
+        max-width: 330px;
+        margin-right: 15px !important;
+    }
+    section.learn-more-section p {
+        font-size: 14px;
+    }
+    
 }
