@@ -532,6 +532,7 @@ section.card-section .card {
     p {
         font-size: 16px;
         font-weight: 300;
+        text-align: center;
     }
 
  
@@ -564,10 +565,11 @@ section.card-section .card {
     }
 
     section.how-it-work-section p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: normal;
         margin-bottom: 0;
         text-align: justify;
+        padding: 0 20px;
     }
 
     .learn-more-section {
@@ -576,7 +578,7 @@ section.card-section .card {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 26px;
         text-align: center;
     }
 
@@ -607,17 +609,43 @@ section.card-section .card {
         margin-right: 0;
     }
 
+
 }
 
 
 @media screen and (max-width: 580px) {
     .owl-item {
-        width: 330px !important;
+        width: 288px !important;
         max-width: 330px;
-        margin-right: 15px !important;
+        margin-right: 6px !important;
     }
     section.learn-more-section p {
         font-size: 14px;
     }
-    
+    section.card-section .card p.card-text {
+ 
+        font-size: 18px;
+ 
+    }
+    .more-info h4 {
+        text-align: center;
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .picture {
+        max-width: 210px;
+        width: 100%;
+        height: 330px;
+        overflow: hidden;
+    }
+    section.card-section .card ul li {
+       
+        margin-bottom: 14px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
 }
