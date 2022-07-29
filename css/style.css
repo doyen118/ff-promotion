@@ -557,7 +557,7 @@ section.card-section .card {
         margin: 0 auto;
         text-align: center;
     }
-    
+
     section.card-section .card {
         max-width: 100%;
     }
@@ -723,6 +723,7 @@ section.card-section .card {
         margin-bottom: 14px;
         font-size: 14px;
         font-weight: 100;
+        text-align: left;
     }
 
 
