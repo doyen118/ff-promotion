@@ -372,6 +372,23 @@ section.card-section .card {
 /*media query*/
 
 
+@media screen and (min-width: 1400px) {
+    .owl-item {
+        width: 410px !important;
+        max-width: 420px;
+        margin-left: 40px;
+        margin-right: 0px !important;
+        transform: translate3d(70px, 0px, 0px) !important;
+    }
+section.card-section .card {
+    max-width: 100%;
+    width: 440px;
+    height: 677px;
+}
+
+
+}
+
 @media screen and (max-width: 1200px) {
     .container {
         max-width: 1024px;
@@ -665,8 +682,7 @@ section.card-section .card {
     }
 
     section.card-section .card {
-
-        width: 351px;
+        width: 340px;
         height: 677px;
         margin: 0 auto;
     }
@@ -726,5 +742,14 @@ section.card-section .card {
         text-align: left;
     }
 
+
+}
+@media screen and (max-width: 360px) {
+
+.owl-item {
+    width: 40% !important;
+    margin-right: 41px !important;
+    max-width: 333px;
+}
 
 }
